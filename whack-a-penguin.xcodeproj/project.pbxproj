@@ -12,6 +12,7 @@
 		169600021BB0C4CD00BC3B05 /* whackMask.png in Resources */ = {isa = PBXBuildFile; fileRef = 1696FFF21BB0C4CD00BC3B05 /* whackMask.png */; settings = {ASSET_TAGS = (); }; };
 		169600031BB0C4CD00BC3B05 /* whackMask@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1696FFF31BB0C4CD00BC3B05 /* whackMask@2x.png */; settings = {ASSET_TAGS = (); }; };
 		169600041BB0C4CD00BC3B05 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1696FFF41BB0C4CD00BC3B05 /* Helper.swift */; settings = {ASSET_TAGS = (); }; };
+		169600061BB0C5D300BC3B05 /* WhackSlot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 169600051BB0C5D300BC3B05 /* WhackSlot.swift */; settings = {ASSET_TAGS = (); }; };
 		1696FFCF1BB0C3FD00BC3B05 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1696FFCE1BB0C3FD00BC3B05 /* AppDelegate.swift */; };
 		1696FFD11BB0C3FE00BC3B05 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 1696FFD01BB0C3FE00BC3B05 /* GameScene.sks */; };
 		1696FFD31BB0C3FE00BC3B05 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1696FFD21BB0C3FE00BC3B05 /* GameScene.swift */; };
@@ -33,6 +34,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		169600051BB0C5D300BC3B05 /* WhackSlot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WhackSlot.swift; sourceTree = "<group>"; };
 		1696FFCB1BB0C3FD00BC3B05 /* whack-a-penguin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "whack-a-penguin.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1696FFCE1BB0C3FD00BC3B05 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1696FFD01BB0C3FE00BC3B05 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -101,6 +103,7 @@
 				1696FFD91BB0C3FE00BC3B05 /* Assets.xcassets */,
 				1696FFDB1BB0C3FE00BC3B05 /* LaunchScreen.storyboard */,
 				1696FFDE1BB0C3FE00BC3B05 /* Info.plist */,
+				169600051BB0C5D300BC3B05 /* WhackSlot.swift */,
 			);
 			path = "whack-a-penguin";
 			sourceTree = "<group>";
@@ -211,6 +214,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				169600061BB0C5D300BC3B05 /* WhackSlot.swift in Sources */,
 				1696FFF51BB0C4CD00BC3B05 /* Array+Shuffling.swift in Sources */,
 				1696FFD31BB0C3FE00BC3B05 /* GameScene.swift in Sources */,
 				169600041BB0C4CD00BC3B05 /* Helper.swift in Sources */,
